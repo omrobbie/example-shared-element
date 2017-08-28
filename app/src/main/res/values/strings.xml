@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">SharedElement</string>
+    <string name="info_content">From the design perspective, I like it, except for the notifications look and feel. I preferred the old looks, but I like its new functionality where you can respond inline or expand them from the status bar. What I don’t really like so far is that it behaves somewhat erratically, both in my own devices and among many people’s devices. Let me explain. There are days in which I do get a phenomenal battery duration, 20+ hours with 3, 4 or 5 hours OST (On Screen time). With the same pattern of use, there are days where I get 10 to 14 hours battery life. How come? If I used the phone pretty much the same way, nothing much, nothing less..and no new apps. This I hate. Now, some people report phenomenal battery charge life time…some others report a decreased amount of battery juice in their phone. How come Google, how come ?</string>
 </resources>

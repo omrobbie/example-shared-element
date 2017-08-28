@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- TODO: (3) Desain detail activity -->
+<?xml version="1.0" encoding="utf-8"?><!-- TODO: (3) Desain detail activity -->
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -27,13 +26,15 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="5dp"
             android:text="Android News!"
-            android:textSize="20sp" />
+            android:textSize="20sp"
+            android:transitionName="title" />
 
         <TextView
             android:id="@+id/info_desc"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Android is the most user in global shared mobile operating system in the world" />
+            android:text="Android is the most user in global shared mobile operating system in the world"
+            android:transitionName="desc" />
     </LinearLayout>
 
     <LinearLayout

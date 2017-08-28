@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- TODO: (2) Desain main activity -->
+<?xml version="1.0" encoding="utf-8"?><!-- TODO: (2) Desain main activity -->
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -12,8 +11,12 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:layout_margin="10dp"
-        android:text="Click the cardview below to check the transition" />
+        android:text="Click the cardview below to check the transition"
+        android:textStyle="bold"
+        android:textSize="32dp"
+        android:gravity="center"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="50dp"/>
 
     <android.support.v7.widget.CardView
         android:id="@+id/cardView"
@@ -48,13 +51,15 @@
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="5dp"
                     android:text="Android News!"
-                    android:textSize="20sp" />
+                    android:textSize="20sp"
+                    android:transitionName="title" />
 
                 <TextView
                     android:id="@+id/info_desc"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Android is the most user in global shared mobile operating system in the world" />
+                    android:text="Android is the most user in global shared mobile operating system in the world"
+                    android:transitionName="desc" />
             </LinearLayout>
         </LinearLayout>
     </android.support.v7.widget.CardView>

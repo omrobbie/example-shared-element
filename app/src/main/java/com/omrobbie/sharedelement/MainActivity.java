@@ -28,6 +28,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 Intent intent = new Intent(MainActivity.this, DetailActivity.class);
 
+                // TODO: (4) Jalankan fungsi untuk memanggil content transition
                 // cek apakah minimum sdk dari device di atas lolipop (API 21)
                 // ini diperlukan untuk mengaktifkan content transition
                 if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
